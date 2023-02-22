@@ -12,7 +12,7 @@ import seaborn as sns
 import datetime as dt
 from scipy.stats import norm
 
-data2 = pd.read_excel(r'C:\Users\dogukan1\Desktop\dataformontecarlo2.xlsx').reset_index(drop=True)
+data2 = pd.read_excel(r'\dataformontecarlo2.xlsx').reset_index(drop=True)
 
 data2['tarih'] = pd.to_datetime(data2['tarih'])  
 data2.sort_values(by='tarih', inplace=True)
