@@ -11,7 +11,9 @@ We can assume that the second part of our data is our test dataset. As a data sc
 There is an argument, which must be known is the economics values can not be able to handled like this. Therefore, you should not take this comparison as an argument.
 
 Summary;
+
 We used the data from 1993 to 2019 in order to build Monte Carlo Simulations. The metric that we use to test our practice is values from 2019 to 2022.  
 I’ve simulated 10000 scenario to predict 12 quartiles.
 The value, which must be reached is 39191.88 to say that Monte Carlo Simulations are useful for predicting of endorsement values of companies.
+
 Let’s skip to the code section.
